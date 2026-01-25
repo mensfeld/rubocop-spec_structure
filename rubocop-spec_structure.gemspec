@@ -17,12 +17,14 @@ Gem::Specification.new do |spec|
   spec.files = Dir["lib/**/*", "config/**/*", "LICENSE.txt", "README.md"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rubocop", ">= 1.0"
+  spec.add_dependency "lint_roller", "~> 1.1"
+  spec.add_dependency "rubocop", ">= 1.72.0"
 
   spec.metadata = {
     "rubygems_mfa_required" => "true",
     "homepage_uri" => spec.homepage,
     "source_code_uri" => spec.homepage,
-    "bug_tracker_uri" => "#{spec.homepage}/issues"
+    "bug_tracker_uri" => "#{spec.homepage}/issues",
+    "default_lint_roller_plugin" => "RuboCop::SpecStructure::Plugin"
   }
 end
