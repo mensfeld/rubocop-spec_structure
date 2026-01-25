@@ -1,0 +1,24 @@
+SpecStructure/SpecFileExists:
+  Description: 'Checks that source files have corresponding spec files.'
+  Enabled: true
+  SourceDirectories:
+    - lib
+    - app
+  SpecDirectory: spec
+  Include:
+    - '**/*.rb'
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'vendor/**/*'
+
+SpecStructure/SourceFileExists:
+  Description: 'Checks that spec files have corresponding source files.'
+  Enabled: true
+  SourceDirectories:
+    - lib
+    - app
+  SpecDirectory: spec
+  Include:
+    - 'spec/**/*_spec.rb'
+  Exclude: []

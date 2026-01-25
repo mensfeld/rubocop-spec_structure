@@ -1,0 +1,26 @@
+# bundler state
+/.bundle
+/vendor/bundle/
+/vendor/ruby/
+
+# artifacts
+*.gem
+*.~
+.byebug_history
+/coverage/
+/doc/
+/pkg/
+/tmp/
+
+# Mac finder artifacts
+.DS_Store
+
+# IDE
+.idea
+*.swp
+
+# documentation
+.yardoc
+
+Gemfile.lock
+Gemfile.lint.lock

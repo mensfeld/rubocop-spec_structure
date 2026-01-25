@@ -1,0 +1,8 @@
+example_id                                                            | status | run_time        |
+--------------------------------------------------------------------- | ------ | --------------- |
+./spec/rubocop/cop/spec_structure/source_file_exists_spec.rb[1:1:1:1] | passed | 0.00139 seconds |
+./spec/rubocop/cop/spec_structure/source_file_exists_spec.rb[1:1:2:1] | passed | 0.00322 seconds |
+./spec/rubocop/cop/spec_structure/spec_file_exists_spec.rb[1:1:1:1]   | passed | 0.00134 seconds |
+./spec/rubocop/cop/spec_structure/spec_file_exists_spec.rb[1:1:2:1]   | passed | 0.00185 seconds |
+./spec/rubocop/spec_structure/version_spec.rb[1:1:1]                  | passed | 0.00115 seconds |
+./spec/rubocop/spec_structure/version_spec.rb[1:1:2]                  | passed | 0.00144 seconds |
