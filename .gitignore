@@ -22,5 +22,4 @@
 # documentation
 .yardoc
 
-Gemfile.lock
 Gemfile.lint.lock
