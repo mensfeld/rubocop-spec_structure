@@ -26,7 +26,7 @@ jobs:
           - '3.3'
           - '3.2'
         include:
-          - ruby: '3.4'
+          - ruby: '4.0'
             coverage: 'true'
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7
@@ -57,7 +57,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@d45b1a4e94b71acab930e56e79c6aa188764e7f9 # v1.316.0
         with:
-          ruby-version: '4.0.5'
+          ruby-version: '4.0'
           bundler-cache: true
       - name: Run rubocop
         run: bundle exec rubocop
@@ -74,7 +74,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@d45b1a4e94b71acab930e56e79c6aa188764e7f9 # v1.316.0
         with:
-          ruby-version: '4.0.5'
+          ruby-version: '4.0'
           bundler-cache: true
       - name: Run yard-lint
         run: bundle exec yard-lint lib/
