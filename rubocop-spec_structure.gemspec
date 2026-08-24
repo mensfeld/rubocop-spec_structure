@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "Checks that source files have corresponding spec files and vice versa"
   spec.homepage = "https://github.com/mensfeld/rubocop-spec_structure"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.2"
+  spec.required_ruby_version = ">= 3.3"
 
   spec.files = Dir["lib/**/*", "config/**/*", "LICENSE.txt", "README.md"]
   spec.require_paths = ["lib"]
