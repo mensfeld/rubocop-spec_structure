@@ -11,6 +11,11 @@
     ".github/workflows/**",
     "package.json"
   ],
+  "bundler": {
+    "managerFilePatterns": [
+      "/(^|/)Gemfile\\.lint$/"
+    ]
+  },
   "packageRules": [
     {
       "minimumReleaseAge": "7 days",
